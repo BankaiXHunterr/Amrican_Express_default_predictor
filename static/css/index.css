@@ -1,0 +1,654 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+
+     background-color: #f8f8f8;
+     font-family: 'Nunito Sans', sans-serif;
+ }
+
+ h1 {
+
+     font-weight: 700;
+     font-size: 5rem;
+     line-height: 1.2;
+     color: #0948b3;
+     padding-bottom: 0.5rem;
+ }
+
+
+ .mybanner {
+     background-repeat: no-repeat;
+ }
+
+
+
+
+ .container-fluid.upper {
+     background-image: url('/static/assests/images/background.png');
+     background-repeat: no-repeat;
+     padding-bottom: 15%;
+     text-align: justify;
+ }
+
+
+ .banner {
+     padding: 2.5% 0 7.5% 0;
+ }
+
+ .nav {
+
+     padding-top: 5%;
+     align-items: center;
+     margin-bottom: 2%;
+ }
+
+
+ .nav-items {
+     text-align: right;
+     justify-content: space-between;
+ }
+
+ .nav-btn {
+     color: white;
+     background-color: #ee5050;
+     margin: 0.5rem;
+ }
+
+ .btn:hover {
+     color: #ee5050;
+     background-color: white;
+ }
+
+
+ /* My box2 CSS START*/
+
+ .mybox2 {
+     background-color: rgba(255, 255, 255, 0.726);
+     padding: 10%;
+     border-radius: 2rem;
+ }
+
+ .form-control {
+     border-radius: 2rem;
+ }
+
+ .upload-button {
+     color: white;
+     background-color: #ee5050;
+     margin-top: 2%;
+     width: 100%;
+     border-radius: 2rem;
+ }
+
+ .upload-button:hover {
+     color: white;
+     background-color: #f03434;
+ }
+
+
+ .form-label {
+     color: #0948b3;
+     padding: 10px;
+ }
+
+
+ /* My BOX2 CSS END */
+
+
+
+
+ /* wave Pattern start  */
+
+ .hero {
+     position: relative;
+ }
+
+
+
+
+ .pattern-top {
+     position: absolute;
+     height: 5%;
+     width: 100%;
+     bottom: 0;
+     background-image: url('/static/assests/patterns/wave-soft.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: bottom;
+     padding: 8% 0 0 0;
+     transform: scaleY(-1);
+
+ }
+
+ .pattern-bottom {
+     position: absolute;
+     height: 35%;
+     width: 100%;
+     top: 0;
+     background-image: url('/static/assests/patterns/wave-soft.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: bottom;
+     padding: 8% 0 0 0;
+
+ }
+
+
+
+ /* wave Pattern End */
+
+
+ .pt-0 {
+     position: relative;
+     padding-top: 0 !important;
+ }
+
+ .col-12 {
+     flex: 0 0 100%;
+ }
+
+
+ .banner-img {
+     max-width: 100%;
+     vertical-align: middle;
+     margin: -20% 0 0 60%;
+ }
+
+
+ /* result section Start */
+
+ .card {
+     position: relative;
+     background: #fff;
+     border-radius: 20px;
+     margin: 20px 0;
+     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .card::before {
+     content: "";
+     position: absolute;
+     height: 40%;
+     width: 100%;
+     background: #ee5050;
+     border-radius: 20px 20px 0 0;
+ }
+
+
+ .card .card-content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     position: relative;
+     z-index: 100;
+ }
+
+ .section-result .card .image {
+     border-radius: 50%;
+     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+         -6px -6px 10px -1px rgba(255, 255, 255, 0.726);
+     background: conic-gradient(#0948b3 1.2deg, #ededed 0deg);
+     background-color: #ee5050;
+ }
+
+
+ .profile-image {
+     margin-top: 1rem;
+     position: relative;
+     border-radius: 100%;
+     background-color: #f8f8f8;
+     border: 1rem solid #f8f8f8;
+     box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.726),
+         -0.5px -0.5px 0px rgba(255, 255, 255, 1), 0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+         0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+     background: conic-gradient(#ededed 1.2deg, #ededed 0deg);
+
+     z-index: 100;
+
+ }
+
+
+ .card .name-profession {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .name-profession .name {
+     padding-top: 2rem;
+     font-size: 20px;
+     font-weight: 600;
+ }
+
+
+ .name-profession .profession {
+     color: #0948b3;
+     font-size: 15px;
+     font-weight: 800;
+ }
+
+
+
+ .swiper-pagination {
+     position: absolute;
+ }
+
+ .swiper-pagination-bullet {
+     margin-top: 5rem;
+     height: 7px;
+     width: 26px;
+     border-radius: 25px;
+     background: #ee5050;
+ }
+
+ .swiper-button-next,
+ .swiper-button-prev {
+     opacity: 0.7;
+     color: #ee5050;
+     transition: all 0.3s ease;
+ }
+
+ .swiper-button-next:hover,
+ .swiper-button-prev:hover {
+     opacity: 1;
+     color: #ee5050;
+ }
+
+ /* result section End */
+
+ .result {
+     text-align: center;
+     margin-bottom: 2.5rem;
+ }
+
+ .result-button {
+     color: white;
+     opacity: 1;
+     background-color: #ee5050;
+     margin: 1.5rem auto;
+     padding: 0.7rem 2rem;
+     border-radius: 1.5rem;
+
+ }
+
+
+ .result-button:hover {
+     color: white;
+     background-color: #ee2f2f;
+ }
+
+ .result-button a {
+     color: #f8f8f8;
+     text-decoration: none;
+     font-size: large;
+     font-weight: 600;
+ }
+
+
+ /* probability progress bas start */
+
+
+ .defualt-result {
+     display: flex;
+     width: 5rem;
+     padding: 1.5rem 0;
+     row-gap: 2rem;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .progress-value {
+     align-items: center;
+     position: relative;
+     font-size: 1.2rem;
+     font-weight: 600;
+ }
+
+
+ /* probability progress bar End */
+
+
+
+ /* feature type section Start*/
+
+ .container-fluid .card-group .card::before {
+     background-color: rgba(240, 248, 255, 0);
+     border-style: none;
+ }
+
+ .feature-card {
+     box-shadow: none;
+     border-style: none;
+     text-align: center;
+     background-color: #f8f8f8;
+
+
+ }
+
+ .feature {
+     display: flex;
+     justify-content: space-between;
+     text-align: center;
+     margin: 0 15rem 5rem;
+ }
+
+
+
+ .download_data .btn {
+     margin: 10px 10px;
+ }
+
+
+ .fa-download,
+ .fa-book {
+     padding: 8px 16px;
+     font-size: 1rem;
+ }
+
+ /* feature type section End */
+
+
+ /* Footer Start*/
+ .footer {
+     background-image: url('/static/assests/images/background.png');
+     min-height: 20rem;
+     padding: 1.5rem;
+
+ }
+
+
+
+ .container-fluid.bottom {
+     background-image: url('/static/assests/images/background.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+     text-align: justify;
+ }
+
+
+
+
+ .pattern-bottom {
+     position: absolute;
+     height: 35%;
+     width: 100%;
+     top: 0;
+     background-image: url('/static/assests/patterns/wave-soft.svg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: bottom;
+     padding: 8% 0 0 0;
+
+ }
+
+ .copyright {
+     color: #f8f8f8;
+     padding: 3rem;
+     text-align: right;
+ }
+
+
+ /* footer End */
+
+
+
+ /* New Modified Circular Progress Bar Start*/
+ .circle-chart {
+     position: relative;
+     text-align: center;
+     align-items: center;
+     width: 6rem;
+     height: 6rem;
+     border-radius: 100%;
+     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+         -6px -6px 10px -1px rgba(255, 255, 255, 0.726);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .circle-chart__circle {
+     content: " ";
+     position: absolute;
+     width: 3rem;
+     height: 3rem;
+     border-radius: 100%;
+     box-shadow: 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.726),
+         -0.5px -0.5px 0px rgba(255, 255, 255, 1), 0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+         0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+     background-color: #ffffff;
+     stroke: #00acc1;
+     stroke-width: 1.5;
+     stroke-linecap: square;
+     fill: none;
+     animation: circle-chart-fill 2s reverse;
+     transform: rotate(-90deg);
+     transform-origin: center;
+ }
+
+
+ .circle-chart__background {
+     stroke: #efefef;
+     stroke-width: 3;
+     fill: none;
+ }
+
+ .circle-chart__info {
+     animation: circle-chart-appear 2s forwards;
+     opacity: 0;
+     transform: translateY(0.3em);
+ }
+
+ .circle-chart__percent {
+     alignment-baseline: central;
+     text-anchor: middle;
+     font-size: 0.3rem;
+     font-weight: 800;
+ }
+
+ .circle-chart__subline {
+     alignment-baseline: central;
+     text-anchor: middle;
+     font-size: 3px;
+ }
+
+ .success-stroke {
+     stroke: #00C851;
+ }
+
+ .warning-stroke {
+     stroke: #ffbb33;
+ }
+
+ .danger-stroke {
+     stroke: #ff4444;
+ }
+
+ @keyframes circle-chart-fill {
+     to {
+         stroke-dasharray: 0 100;
+     }
+ }
+
+ @keyframes circle-chart-appear {
+     to {
+         opacity: 1;
+         transform: translateY(0);
+     }
+ }
+
+ /* New Modified Circular Progress Bar End*/
+
+
+
+ /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+     h1 {
+
+         font-weight: 700;
+         font-size: 2.5 rem;
+         line-height: 1.2;
+         color: #0948b3;
+         padding-bottom: 0.5rem;
+         text-align: center;
+     }
+
+    h3{
+        text-align: center;
+    }
+     .banner-img {
+         max-width: 80%;
+         vertical-align: middle;
+         margin: -30% 0 0 10%;
+     }
+
+     .nav{
+        text-align: center;
+     }
+
+     .upload-button {
+        color: white;
+        background-color: #ee5050;
+        margin-top: 5%;
+        width: 100%;
+        border-radius: 2rem;
+    }
+
+
+    .mybox2 {
+        background-color: rgba(255, 255, 255, 0.726);
+        padding: 10%;
+        border-radius: 2rem;
+        margin: 1rem 0;
+    }
+
+    .feature {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 0 0.5rem 1rem;
+    }
+
+    .form-label {
+        color: #0948b3;
+        padding: 0;
+    }
+
+    .swiper {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+        padding: 2rem;
+    }
+
+    .copyright {
+        color: #f8f8f8;
+        padding: 2.5rem 0;
+        text-align: right;
+    }
+      
+    .swiper-pagination-bullet {
+        margin-top: 15rem;
+        height: 7px;
+        width: 7px;
+        border-radius: 25px;
+        background: #ee5050;
+    }
+
+ }
+
+ /* // `md` applies to small devices (landscape phones, less than 768px) */
+ @media (max-width: 767.98px) {
+     h1 {
+
+         font-weight: 700;
+         font-size: 3.5rem;
+         line-height: 1.2;
+         color: #0948b3;
+         padding-bottom: 0.5rem;
+     }
+
+
+     .banner-img {
+         max-width: 80%;
+         vertical-align: middle;
+         margin: -30% 0 0 10%;
+     }
+
+     .form-label {
+        color: #0948b3;
+        padding: 0px;
+    }
+    .feature {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        margin: 0 0.5rem 5rem;
+    }
+
+    .mySwiper-ms{
+        display: none;
+    }
+
+    .mySwiper-bs{
+        display: none;
+    }
+    
+ }
+
+ /* // `lg` applies to medium devices (tablets, less than 992px) */
+ @media (max-width: 991.98px) {
+    h1 {
+
+        font-weight: 700;
+        font-size: 3.5rem;
+        line-height: 1.2;
+        color: #0948b3;
+        padding-bottom: 0.5rem;
+    }
+
+
+    .banner-img {
+        max-width: 80%;
+        vertical-align: middle;
+        margin: -25% 0 0 25%;
+    }
+
+    .form-label {
+        color: #0948b3;
+        padding: 0px;
+    }
+
+    .feature {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .mySwiper-bs{
+        display: none;
+    }
+
+    .mySwiper-ss{
+        display: none;
+    }
+ }
+
+ /* // `xl` applies to large devices (desktops, less than 1200px) */
+ @media (max-width: 1199.98px) {
+    .mySwiper-ms{
+        display: none;
+    }
+
+    .mySwiper-ss{
+        display: none;
+    }
+ }
