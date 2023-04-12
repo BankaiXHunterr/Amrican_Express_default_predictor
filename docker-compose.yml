@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  casestudy1americanexpres:
-    image: casestudy1americanexpres
+  amaericanexpress:
+    image: amaericanexpress
     build:
       context: .
       dockerfile: ./Dockerfile
