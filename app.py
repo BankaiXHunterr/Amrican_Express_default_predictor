@@ -232,6 +232,6 @@ def upload():
                                year=year,
                                thersold=thersold)
 
-# running the app
+# running the app at the post 8080
 if __name__ == '__main__':
-    app.run(debug=True,port=5002)
+    app.run(debug=True,port=8080)
