@@ -8,3 +8,4 @@
 5. [Google Colab](https://colab.research.google.com/)
 6. [Docker Account](https://www.docker.com/)
 
+I am using the AWS EC2 instance to deploy the project
